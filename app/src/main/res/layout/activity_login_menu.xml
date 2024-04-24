@@ -48,7 +48,7 @@
         android:layout_marginEnd="300dp"
         android:layout_marginBottom="1dp"
         android:fontFamily="@font/montserrat"
-        android:text="@string/login"
+        android:text="Email"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#4D4D4D"
@@ -92,8 +92,8 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="305dp"
-        android:layout_height="54dp"
+        android:layout_width="262dp"
+        android:layout_height="57dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="276dp"
         android:layout_marginEnd="146dp"
@@ -106,7 +106,7 @@
         android:textSize="17sp"
         app:cornerRadius="20px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.618"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#1A529D"
@@ -171,11 +171,12 @@
         android:textSize="17sp"
         app:cornerRadius="20px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#1A529D"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="2dp"
+        android:inputType="textPassword" />
 
     <TextView
         android:id="@+id/textView4"

@@ -4,13 +4,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     >
+    <item android:title=""
+        android:enabled="false"/>
     <group android:checkableBehavior="single"
-        android:paddingTop="1dp"  android:paddingBottom="1dp">
+        android:paddingTop="-10dp"  android:paddingBottom="-10dp">
         <item
 
             android:id="@+id/menu_profil"
             android:icon="@drawable/group"
-            android:title="Profil"/>
+            android:title="Profil"
+            app:actionLayout="@layout/divider_layout"/>
 
         <item
             android:enabled="false"

@@ -5,112 +5,104 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rectangle_479__2_"
     tools:context=".login">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="449dp"
-        android:layout_height="966dp"
-        app:srcCompat="@drawable/rectangle_479"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-73dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="447dp"
-        android:layout_height="252dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/group_358"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/Button2"
-        android:layout_width="352dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="312dp"
-        android:backgroundTint="#1A529D"
-        android:fontFamily="@font/montserrat"
-        android:onClick="loginp"
-        android:text="@string/login"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:cornerRadius="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="352dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="388dp"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/montserrat"
-        android:onClick="registerp"
-        android:text="@string/register"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:cornerRadius="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="#1A529D"
-        app:strokeWidth="2dp" />
-
     <TextView
         android:id="@+id/textView200"
-        android:layout_width="151dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="148dp"
+        android:layout_width="188dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="130dp"
         android:layout_marginTop="480dp"
+        android:layout_marginEnd="130dp"
         android:fontFamily="@font/montserrat"
         android:text="Kebaikan Alam"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#4D4D4D"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView201"
-        android:layout_width="160dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="508dp"
+        android:layout_width="206dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="121dp"
         android:fontFamily="@font/montserrat"
         android:text="Kebaikan Hidup"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#4D4D4D"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="448dp"
-        android:layout_height="356dp"
-        android:layout_marginTop="588dp"
+        android:id="@+id/imageView19"
+        android:layout_width="370dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="39dp"
+        android:onClick="registerp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/group_360"
-        tools:layout_editor_absoluteX="1dp" />
+        app:srcCompat="@drawable/group_362__1_" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="400dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="loginp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_361" />
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/group_360__1_" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="385dp"
+        android:layout_width="393dp"
         android:layout_height="402dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="23dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aqua_png_13_photoroom_1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
