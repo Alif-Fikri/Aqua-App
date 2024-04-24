@@ -39,8 +39,8 @@ public class main_menu extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == R.id.logout) {
-                    logout();
+                if (id == R.id.logouts) {
+                    logouts();
                     return true;
                 }
                 return false;
@@ -48,7 +48,7 @@ public class main_menu extends AppCompatActivity {
         });
     }
 
-    private void logout() {
+    private void logouts() {
         Intent intent = new Intent(main_menu.this, login_menu.class);
         startActivity(intent);
         finish();
