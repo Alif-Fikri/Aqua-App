@@ -11,98 +11,86 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_width="444dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="4dp"
         android:scaleType="center"
+        app:layout_constraintDimensionRatio="H,0.50"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/group_358"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView200"
-        android:layout_width="188dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginEnd="130dp"
-        android:fontFamily="@font/montserrat"
-        android:text="Kebaikan Alam"
-        android:textAlignment="center"
-        android:textColor="#4D4D4D"
-        android:textSize="20sp"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="loginp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.20"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView201"
-        android:layout_width="206dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="121dp"
-        android:layout_marginTop="504dp"
-        android:layout_marginEnd="121dp"
-        android:fontFamily="@font/montserrat"
-        android:text="Kebaikan Hidup"
-        android:textAlignment="center"
-        android:textColor="#4D4D4D"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331"
+        app:srcCompat="@drawable/group_361" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="370dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="395dp"
-        android:layout_marginEnd="39dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
         android:onClick="registerp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.18"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425"
         app:srcCompat="@drawable/group_362__1_" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="400dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="24dp"
-        android:onClick="loginp"
+        android:id="@+id/imageView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.80"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/group_361" />
-
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-105dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/group_360__1_" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="393dp"
-        android:layout_height="402dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="524dp"
         android:layout_marginEnd="23dp"
+        android:layout_marginBottom="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1.20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aqua_png_13_photoroom_1" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537"
+        app:srcCompat="@drawable/kebaikan_alam_kebaikan_hidup" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

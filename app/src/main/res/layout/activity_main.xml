@@ -10,228 +10,97 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="448dp"
-        android:layout_height="346dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,0.70"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logoaqua"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/logoaqua" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="448dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="300dp"
-        android:fontFamily="@font/montserrat"
-        android:text="KEBAIKAN"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="61dp"
-        android:layout_marginTop="352dp"
-        android:fontFamily="@font/montserrat"
-        android:text="BERAWAL"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="61dp"
-        android:layout_marginTop="392dp"
-        android:fontFamily="@font/montserrat"
-        android:text="DARI SINI"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="31dp"
-        android:layout_marginTop="452dp"
-        android:fontFamily="@font/montserrat"
-        android:text="Terpercaya lebih"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginBottom="-60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.70"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-5dp"
-        android:fontFamily="@font/montserrat"
-        android:text="dari 45 tahun"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group_924" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="575dp"
         android:layout_height="675dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/vector_1" />
 
-    <ImageView
-        android:id="@+id/cahaya"
-        android:layout_width="match_parent"
-        android:layout_height="187dp"
-        android:layout_marginTop="732dp"
-        android:layout_marginEnd="20dp"
-        android:scaleType="center"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ellipse_217" />
-
-    <ImageView
-        android:id="@+id/vektor2"
-        android:layout_width="430dp"
-        android:layout_height="519dp"
-        android:layout_marginStart="500dp"
-        android:layout_marginTop="416dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_2" />
-
-    <ImageView
-        android:id="@+id/vektor3"
-        android:layout_width="472dp"
-        android:layout_height="122dp"
-        android:layout_marginTop="800dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_3" />
-
-    <ImageView
-        android:id="@+id/vektor4"
-        android:layout_width="470dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="780dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_4" />
-
-    <ImageView
-        android:id="@+id/vektor6"
-        android:layout_width="167dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="812dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_6" />
-
-    <ImageView
-        android:id="@+id/vektor7"
-        android:layout_width="157dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="804dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_7" />
-
-    <ImageView
-        android:id="@+id/vektor8"
-        android:layout_width="177dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="888dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_8" />
-
-    <ImageView
-        android:id="@+id/vektor9"
-        android:layout_width="172dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginTop="900dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_9" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="176dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="872dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_10" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="169dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="292dp"
-        android:layout_marginTop="804dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_11" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="800dp"
-        android:layout_marginTop="468dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1.45"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aqua__product__photoroom_1" />
 
     <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="90dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="510dp"
-        android:layout_marginEnd="179dp"
-        android:onClick="loginClicked"
+        android:id="@+id/imageView77"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.30"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399"
+        app:srcCompat="@drawable/kebaikan_berawal_dari_sini__1_" />
+
+    <ImageView
+        android:id="@+id/imageView310"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="loginClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
         app:srcCompat="@drawable/group_359" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539"
+        app:srcCompat="@drawable/terpercaya_lebih_dari_45_tahun__1_" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

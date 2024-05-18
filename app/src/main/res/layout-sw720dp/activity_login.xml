@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_479__2_"
+    tools:context=".login">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_358"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="188dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Kebaikan Alam"
+        android:textAlignment="center"
+        android:textColor="#4D4D4D"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="206dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="121dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Kebaikan Hidup"
+        android:textAlignment="center"
+        android:textColor="#4D4D4D"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vektor700" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="389dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aqua_png_13_photoroom_1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="400dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="loginp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_361" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="370dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="39dp"
+        android:onClick="registerp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_362__1_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

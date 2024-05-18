@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ekstravaganza">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="EkstraVaganza"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button953"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="@color/white"
+        android:onClick="backmain"
+        android:textAlignment="center"
+        app:icon="@drawable/vector"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageView53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/group_928" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255"
+        app:srcCompat="@drawable/line_12" />
+
+    <Button
+        android:id="@+id/redeemekstra"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#1A529D"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Redeem"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        android:onClick="scsekstra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,0.18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="242dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287"
+        app:srcCompat="@drawable/penukaran_bulan_april" />
+
+    <ImageView
+        android:id="@+id/imageViewBulan"
+        android:layout_width="350dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        app:srcCompat="@drawable/group_915" />
+
+    <ImageView
+        android:id="@+id/spinImageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toTopOf="@+id/redeemekstra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="0.275"
+        app:srcCompat="@drawable/group_917" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinImageView"
+        app:layout_constraintEnd_toEndOf="@+id/spinImageView"
+        app:layout_constraintHorizontal_bias="0.688"
+        app:layout_constraintStart_toStartOf="@+id/spinImageView"
+        app:layout_constraintTop_toTopOf="@+id/spinImageView"
+        app:srcCompat="@drawable/vector_41" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

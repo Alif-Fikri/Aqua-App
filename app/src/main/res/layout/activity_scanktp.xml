@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".scanktp">
+
+    <Button
+        android:id="@+id/button955"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="345dp"
+        android:backgroundTint="@color/white"
+        android:onClick="backmenu"
+        android:textAlignment="center"
+        app:icon="@drawable/vector"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:strokeColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView210"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="127dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Scan KTP"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageView
+        android:id="@+id/imageView300"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="174dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/group_376" />
+
+    <ImageView
+        android:id="@+id/imageView350"
+        android:layout_width="318dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/total_tutup_botol_olivia_gabrielle_30" />
+
+    <TextView
+        android:id="@+id/textViewPoints"
+        android:layout_width="75dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginEnd="47dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="30"
+        android:textColor="#1A529D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="324dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="43dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Scan KTP untuk melanjutkan proses klaim tutup botol. Pastikan foto KTP terlihat dengan jelas"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/montserrat_semibold"
+        android:onClick="cancelktp"
+        android:text="Cancel"
+        android:textColor="#4E5355"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:strokeColor="#1A529D"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="348dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#E5EEF5"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="306dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="@+id/button10"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10"
+        app:srcCompat="@drawable/group_384__2_" />
+
+    <ImageView
+        android:id="@+id/scannedImage"
+        android:layout_width="280dp"
+        android:layout_height="160dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#1A529D"
+        android:fontFamily="@font/montserrat_semibold"
+        android:onClick="scansuccess"
+        android:text="Save"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
