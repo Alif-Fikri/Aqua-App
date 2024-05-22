@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.testi.helper.UserPointsManager;
+
 public class redeemvaganza extends AppCompatActivity {
 
     private TextView textViewtotal1;

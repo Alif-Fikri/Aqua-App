@@ -19,21 +19,36 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.testi.auth.login_menu;
+import com.example.testi.helper.UserPointsManager;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class main_menu extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ImageButton btnOpenDrawer;
     private int notificationCount = 0;
+    private FirebaseUser firebaseUser;
+    private TextView TextViewName, TextViewEmail;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         btnOpenDrawer = findViewById(R.id.btn_open_drawer);
+        TextViewName = findViewById(R.id.textViewName);
+        TextViewEmail = findViewById(R.id.textViewEmail);
+
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        if (firebaseUser != null) {
+            TextViewName.setText(firebaseUser.getDisplayName());
+            TextViewEmail.setText(firebaseUser.getEmail());
+        } else {
+            TextViewName.setText("Login Failed");
+        }
 
         TextView textViewPoints = findViewById(R.id.textViewPoints);
         int userPoints = UserPointsManager.getUserPoints(this);
@@ -109,15 +124,15 @@ public class main_menu extends AppCompatActivity {
         }
     }
 
+    private void logouts() {
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(getApplicationContext(), login_menu.class));
+        finish();
+    }
+
     public void scan(View view) {
         Intent scan = new Intent(main_menu.this, scan_menu.class);
         startActivity(scan);
-    }
-
-    private void logouts() {
-        Intent intent = new Intent(main_menu.this, login_menu.class);
-        startActivity(intent);
-        finish();
     }
 
     public void redeem1(View view) {

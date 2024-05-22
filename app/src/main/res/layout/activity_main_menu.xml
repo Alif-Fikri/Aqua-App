@@ -87,19 +87,23 @@
                 android:id="@+id/imageView29"
                 android:layout_width="493dp"
                 android:layout_height="113dp"
-                app:srcCompat="@drawable/vector_12__1_"
-                tools:layout_editor_absoluteX="64dp" />
+                android:layout_marginStart="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vector_12__1_" />
+
 
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="108dp"
                 android:layout_height="104dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="75dp"
+                android:layout_marginTop="72dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.123"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/freestocks_9uvmlib0wju_unsplash_1__1_" />
-
 
             <ImageView
                 android:id="@+id/imageView41"
@@ -132,8 +136,9 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="418dp"
+                android:layout_width="match_parent"
                 android:layout_height="43dp"
+                android:layout_marginStart="20dp"
                 android:fontFamily="@font/montserrat"
                 android:text="Vaganza Fiesta"
                 android:textColor="#4D4D4D"
@@ -142,10 +147,9 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintDimensionRatio="H,0.25"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.476" />
+                app:layout_constraintVertical_bias="0.47" />
 
             <ImageView
                 android:id="@+id/imageView56"
@@ -269,29 +273,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.051" />
-
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="318dp"
-                android:layout_height="46dp"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="96dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/selamat_pagi_olivia_gabrielle__1_" />
-
-            <TextView
-                android:id="@+id/textView23"
-                android:layout_width="213dp"
-                android:layout_height="21dp"
-                android:layout_marginStart="157dp"
-                android:layout_marginTop="145dp"
-                android:fontFamily="@font/montserrat"
-                android:text="olivia.gabrielle@gmail.com"
-                android:textColor="@color/white"
-                android:textSize="12sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textViewPoints"
@@ -502,6 +483,54 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="185dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="84dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Selamat Pagi"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toEndOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="227dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="112dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="Olivia Gabrielle"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewEmail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.112"
+                app:layout_constraintStart_toEndOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="230dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="152dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="olivia.gabrielle@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toEndOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
@@ -511,7 +540,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:visibility="gone"
+        android:visibility="invisible"
         app:itemTextAppearance="@style/NavigationViewTextStyle"
         app:menu="@menu/drawer_menu"
         tools:ignore="MissingConstraints" />

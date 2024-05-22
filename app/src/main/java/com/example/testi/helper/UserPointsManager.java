@@ -1,4 +1,4 @@
-package com.example.testi;
+package com.example.testi.helper;
 
 import android.content.Context;
 import android.content.SharedPreferences;

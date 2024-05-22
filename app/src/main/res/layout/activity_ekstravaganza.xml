@@ -69,7 +69,7 @@
         app:srcCompat="@drawable/line_12" />
 
     <Button
-        android:id="@+id/redeemekstra"
+        android:id="@+id/redeemeks"
         android:layout_width="349dp"
         android:layout_height="70dp"
         android:backgroundTint="#1A529D"
@@ -112,11 +112,12 @@
         android:id="@+id/spinImageView"
         android:layout_width="350dp"
         android:layout_height="350dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintBottom_toTopOf="@+id/redeemekstra"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBulan"
         app:layout_constraintVertical_bias="0.275"
         app:srcCompat="@drawable/group_917" />
 
@@ -130,5 +131,13 @@
         app:layout_constraintStart_toStartOf="@+id/spinImageView"
         app:layout_constraintTop_toTopOf="@+id/spinImageView"
         app:srcCompat="@drawable/vector_41" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="68dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

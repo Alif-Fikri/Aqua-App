@@ -18,6 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.testi.helper.UserPointsManager;
+
 public class scanktp extends AppCompatActivity {
 
     private static final int REQUEST_CAMERA_PERMISSION = 1001;

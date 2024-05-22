@@ -6,6 +6,7 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
@@ -19,6 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Testi"
         tools:targetApi="31">
+
         <activity
             android:name=".royalvaganza"
             android:exported="false" />
@@ -59,11 +61,12 @@
             android:name=".main_menu"
             android:exported="false" />
         <activity
-            android:name=".register_menu"
+            android:name=".auth.register_menu"
             android:exported="false" />
         <activity
-            android:name=".login_menu"
-            android:exported="false" />
+            android:name=".auth.login_menu"
+            android:exported="false"
+            android:configChanges="orientation|screenSize" />
         <activity
             android:name=".login"
             android:exported="false" />
@@ -72,7 +75,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

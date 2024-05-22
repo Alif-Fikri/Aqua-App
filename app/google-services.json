@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900138671153",
+    "project_id": "appaqua-e9646",
+    "storage_bucket": "appaqua-e9646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900138671153:android:05cb65fc64eb46c2ac4910",
+        "android_client_info": {
+          "package_name": "com.example.testi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF69Q0S1MHx_LEft5ALkbSrVXVsL2cvoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

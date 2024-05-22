@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.testi.auth.login_menu;
+import com.example.testi.auth.register_menu;
+
 
 public class login extends AppCompatActivity {
     @Override
